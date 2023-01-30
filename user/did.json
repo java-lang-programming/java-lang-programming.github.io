@@ -1,0 +1,20 @@
+{
+	"@context": ["https://www.w3.org/ns/did/v1"],
+	"id": "did:web:java-lang-programming.github.io:user",
+	"service": [{
+		"id": "#issuer-profile",
+		"type": "IssuerProfile",
+		"serviceEndpoint": "https://java-lang-programming.github.io/profile.json"
+	}],
+	"verificationMethod": [{
+		"id": "#key-1",
+		"controller": "did:web:java-lang-programming.github.io:user",
+		"type": "EcdsaSecp256k1VerificationKey2019",
+		"publicKeyJwk": {
+			"kty": "EC",
+			"crv": "K-256",
+			"x": "qvw17fsokrxp73UmFDzRi_ABKwKXXxsiOJT6kvPiEXE",
+			"y": "-TmBVvRKqTvX-AhkYnAKCsk-44IHRltOS6zVPFDCSdk"
+		}
+	}]
+}
