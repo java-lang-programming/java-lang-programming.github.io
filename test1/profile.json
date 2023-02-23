@@ -1,0 +1,11 @@
+{
+	"@context": ["https://w3id.org/openbadges/v2", "https://w3id.org/blockcerts/v3"],
+	"id": "https://java-lang-programming.github.io/test1/profile.json",
+	"type": "Profile",
+	"name": "Marsa Academy2",
+	"url": "https://marsa.com",
+	"email": "marsa2@io.com",
+	"publicKey": [{
+		"id": "ecdsa-koblitz-pubkey:0x91582E868c62FA205d38BeBaB7B903322A4CC89D"
+	}]
+}
