@@ -1,0 +1,11 @@
+{
+	"@context": ["https://w3id.org/openbadges/v2", "https://w3id.org/blockcerts/v3"],
+	"id": "https://java-lang-programming.github.io/test2/profile.json",
+	"type": "Profile",
+	"name": "Inrou_test",
+	"url": "https://java-lang-programming.github.io",
+	"email": "inrou@test.com",
+	"publicKey": [{
+		"id": "ecdsa-koblitz-pubkey:0x91582E868c62FA205d38BeBaB7B903322A4CC89D"
+	}]
+}
